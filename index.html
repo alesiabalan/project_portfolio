@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    
+</head>
+<body>    
+    <header class="header">
+        <div class="container">
+            <div class="header_container">
+                <div class="header_logo">
+                    <a href="/" class="header_logo_link">
+                        <img src="./assets/svg/logo.svg" alt="Portfolio" class="heater_logo_pic">
+                    </a>
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="#skills" class="header_link">Skills</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#portfolio" class="header_link">Portfolio</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#video" class="header_link">Video</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#price" class="header_link">Price</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#contacts" class="header_link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>    
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <div class="hero_content">
+                    <h1 class="hero_name">Alexa Rise</h1>
+                    <div class="hero_text">Save sincere emotions, romantic feelings and <br>happy moments of life together with
+                        professional <br>photographer Alexa Rise</div>
+                    <button class="gold_button">Hire me</button>
+                </div>            
+            </section>
+            <section class="skills" id="skills">
+                <div class="section_title_wrapper">
+                    <h2 class="section_title">Skills</h2>
+                </div>
+                <div class="skills_list">
+                    <div class="skills_item">
+                        <img src="/assets/svg/camera.svg" alt="photo_pic" class="skills_pic">
+                        <p class="skills_item_name">Digital photography</p>
+                        <p class="skills_item_info">High-quality photos in the studio<br>and on the nature</p>
+                    </div>
+                    <div class="skills_item">
+                        <img src="/assets/svg/video.svg" alt="photo_pic" class="skills_pic">
+                        <p class="skills_item_name">Video shooting</p>
+                        <p class="skills_item_info">Capture your moments so that <br>they always stay with you</p>
+                    </div>
+                    <div class="skills_item">
+                        <img src="/assets/svg/image.svg" alt="photo_pic" class="skills_pic">
+                        <p class="skills_item_name">Retouch</p>
+                        <p class="skills_item_info">I strive to make photography <br>surpass reality</p>
+                    </div>
+                    <div class="skills_item">
+                        <img src="/assets/svg/audio.svg" alt="photo_pic" class="skills_pic">
+                        <p class="skills_item_name">Audio</p>
+                        <p class="skills_item_info">Professional sounds recording <br>for video, advertising, portfolio</p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="section_title_wrapper">
+                    <h2 class="section_title">Portfolio</h2>
+                </div> 
+                <div class="portfolio_button_menu">
+                    <button class="portfolio_button" data-season='winter'>Winter</button>
+                    <button class="portfolio_button" data-season='spring'>Spring</button>
+                    <button class="portfolio_button" data-season='summer'>Summer</button>
+                    <button class="portfolio_button btn_active" data-season='autumn'>Autumn</button>
+                </div>
+                <div class="portfolio_gallery">
+                    <img src="/assets/img/autumn/1.jpg" alt="photo" class="portfolio_pic">
+                    <img src="/assets/img/autumn/2.jpg" alt="photo" class="portfolio_pic">
+                    <img src="/assets/img/autumn/3.jpg" alt="photo" class="portfolio_pic">
+                    <img src="/assets/img/autumn/4.jpg" alt="photo" class="portfolio_pic">
+                    <img src="/assets/img/autumn/5.jpg" alt="photo" class="portfolio_pic">
+                    <img src="/assets/img/autumn/6.jpg" alt="photo" class="portfolio_pic">
+                </div>       
+            </section>
+            <section class="video" id="video">
+                <div class="section_title_wrapper">
+                    <h2 class="section_title">Video</h2>
+                </div>
+                <div class="video_content">
+                    <video src="/" poster="/assets/img/video-player.jpg" class="player"></video>
+                    <button class="play_button"><img src="/assets/svg/play_hover.svg" alt="play" class="video_button_pic"></button>
+                </div>        
+            </section>
+            <section class="price" id="price">
+                <div class="section_title_wrapper">
+                    <h2 class="section_title">Price</h2>
+                </div>
+                <div class="price_cards">
+                    <div class="price_item">
+                        <h3 class="price_card_title">Standard</h3>
+                        <div class="price_card_price">500 $</div>
+                        <div class="price_card_text">One location<br>120 photos in color<br>12 photos in retouch<br>Readiness 2-3 weeks<br>Make up, visage</div>
+                        <button class="gold_button">Order shooting</button>
+                    </div>
+                    <div class="price_item">
+                        <h3 class="price_card_title">Premium</h3>
+                        <div class="price_card_price">700 $</div>
+                        <div class="price_card_text">One or two locations<br>200 photos in color<br>20 photos in retouch<br>Readiness 1-2 weeks<br>Make up, visage</div>
+                        <button class="gold_button">Order shooting</button>
+                    </div>
+                    <div class="price_item">
+                        <h3 class="price_card_title">Gold</h3>
+                        <div class="price_card_price">1000 $</div>
+                        <div class="price_card_text">Three locations or more<br>300 photos in color<br>50 photos in retouch<br>Readiness 1 week<br>Make up, visage, hairstyle</div>
+                        <button class="gold_button">Order shooting</button>
+                    </div>
+                </div>    
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="form_wrapper">
+                    <form action="" class="contact_form">
+                        <h2 class="contact_title">Contact me</h2>
+                        <input type="email" class="contact_info" placeholder="E-mail">
+                        <input type="tel" class="contact_info" placeholder="Phone">
+                        <textarea rows="3" class="contact_info message" placeholder="Message"></textarea>
+                        <button type="submit" class="gold_button">Send message</button>
+                    </form>
+                </div>                        
+            </section>
+        </div>
+    </main>
+    <footer class="footer">        
+        <div class="footer_container">
+            <div class="footer_social">
+                <a href="https://github.com/alesiabalan"><img src="/assets/svg/github.svg" alt="github" class="footer_social_pic"></a>
+                <a href="https://www.instagram.com/"><img src="/assets/svg/inst.svg" alt="instagram" class="footer_social_pic"></a>
+                <a href="https://www.facebook.com/"><img src="/assets/svg/fb.svg" alt="facebook" class="footer_social_pic"></a>
+                <a href="https://twitter.com/"><img src="/assets/svg/tw.svg" alt="twiter" class="footer_social_pic"></a>
+                <a href="https://www.pinterest.com/"><img src="/assets/svg/pinterest.svg" alt="pinterest" class="footer_social_pic"></a>        
+            </div>
+        </div>    
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
